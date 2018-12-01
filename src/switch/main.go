@@ -15,6 +15,7 @@ func main() {
 			fmt.Println("you are too young")
 		case 20:
 			fmt.Println("you are too old")
+			//default语句不是必须的
 		default:
 			fmt.Println("you are ok")
 		}
