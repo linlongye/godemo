@@ -13,4 +13,15 @@ outTer:
 			}
 		}
 	}
+
+	// 无限循环
+	sum := 0
+	for {
+		sum++
+		if sum > 10 {
+			break
+		} else {
+			fmt.Println(sum)
+		}
+	}
 }
